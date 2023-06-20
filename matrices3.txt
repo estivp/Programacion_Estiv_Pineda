@@ -1,0 +1,44 @@
+#include <iostream>
+#include <conio.h>
+#include <string.h>
+
+using namespace std;
+int main(){
+int i;	
+
+	cout<<"ingrese el nombre de las 5 personas: "<<endl;
+	
+	char nombre1[20];
+	char nombre2[20];
+	char nombre3[20];
+	char nombre4[20];
+	char nombre5[20];
+	cin.getline(nombre1,20,'\n'); //ingresar datos como string, necesita 3 parametros 
+	cin.getline(nombre2,20,'\n');
+	cin.getline(nombre3,20,'\n');
+	cin.getline(nombre4,20,'\n');
+	cin.getline(nombre5,20,'\n');	
+				
+	cout<<nombre1<<endl;
+	int distancia1 = strlen(nombre1); 
+	cout<<"\ncantidad de espacios usados: "<<distancia1<<endl;
+	
+		cout<<nombre2<<endl;
+	int distancia2 = strlen(nombre2);
+	cout<<"\ncantidad de espacios usados: "<<distancia2<<endl;
+	
+		cout<<nombre3<<endl;
+	int distancia3 = strlen(nombre3);  
+	cout<<"\ncantidad de espacios usados: "<<distancia3<<endl;
+	
+		cout<<nombre4<<endl;
+	int distancia4 = strlen(nombre4);  
+	cout<<"\ncantidad de espacios usados: "<<distancia4<<endl;
+	
+		cout<<nombre5<<endl;
+	int distancia5 = strlen(nombre5);  
+	cout<<"\ncantidad de espacios usados: "<<distancia5<<endl;
+	
+	
+	return 0;
+}
